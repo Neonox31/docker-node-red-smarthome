@@ -25,6 +25,7 @@ RUN npm i -S node-red-contrib-date
 RUN npm i -S node-red-contrib-google-home-notify
 RUN npm i -S node-red-contrib-broadlink
 RUN npm i -S node-red-contrib-scheduler
+RUN npm i -S node-red-contrib-advanced-ping
 
 # --------------------------------
 
