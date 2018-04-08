@@ -1,4 +1,4 @@
-FROM nodered/node-red-docker:latest
+FROM nodered/node-red-docker:v8
 
 USER root
 
@@ -30,6 +30,7 @@ RUN npm i -S node-red-contrib-broadlink
 RUN npm i -S node-red-contrib-scheduler
 RUN npm i -S node-red-contrib-advanced-ping
 RUN npm i -S node-red-contrib-repeat
+RUN npm i -S node-red-contrib-ghome
 
 # --------------------------------
 
@@ -39,4 +40,4 @@ EXPOSE 1880
 # Environment variable holding file path for flows configuration
 ENV FLOWS=flows.json
 
-CMD ["npm", "start", "--", "--userDir", "/data"]
+CMD npm start -- --userDir /data
