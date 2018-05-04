@@ -25,7 +25,6 @@ RUN npm i -S node-red-contrib-openzwave
 # ---- ADD CUSTOM NODES ----
 RUN npm i -S git+https://github.com/Neonox31/node-red-web-nodes.git
 RUN npm i -S node-red-node-pushover
-RUN npm i -S node-red-contrib-google-home-notify
 RUN npm i -S node-red-contrib-broadlink
 RUN npm i -S node-red-contrib-scheduler
 RUN npm i -S node-red-contrib-advanced-ping
