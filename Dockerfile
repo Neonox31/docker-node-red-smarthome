@@ -30,6 +30,7 @@ RUN npm i -S node-red-contrib-scheduler
 RUN npm i -S node-red-contrib-advanced-ping
 RUN npm i -S node-red-contrib-repeat
 RUN npm i -S node-red-contrib-ghome
+RUN npm i -S node-red-node-google
 
 # --------------------------------
 
