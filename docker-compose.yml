@@ -19,6 +19,7 @@ services:
       - /srv/docker/node-red-smarthome:/data
     devices:
       - /dev/ttyACM0:/dev/ttyACM0:rvm
+      - /dev/ttyUSB0:/dev/ttyUSB0:rvm
     labels:
       - "traefik.enable=true"
       - "traefik.backend=smarthome"

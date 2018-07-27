@@ -25,6 +25,10 @@ RUN ldconfig /usr/local/lib64
 # Add openzwave nodes
 RUN npm i -S node-red-contrib-openzwave
 
+# ---- ZIGATE ----
+
+RUN npm i -S @neonox31/node-red-contrib-zigate
+
 
 # ---- ADD JS LIBRARIES ----
 RUN npm i -S moment
