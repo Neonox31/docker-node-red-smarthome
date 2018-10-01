@@ -26,7 +26,6 @@ RUN ldconfig /usr/local/lib64
 RUN npm i -S node-red-contrib-openzwave
 
 # ---- ZIGATE ----
-
 RUN npm i -S @neonox31/node-red-contrib-zigate
 
 
@@ -42,7 +41,7 @@ RUN npm i -S node-red-contrib-broadlink
 RUN npm i -S node-red-contrib-scheduler
 RUN npm i -S node-red-contrib-advanced-ping
 RUN npm i -S node-red-contrib-repeat
-RUN npm i -S node-red-contrib-ghome
+RUN npm i -S @neonox31/node-red-contrib-ghome
 RUN npm i -S node-red-node-google
 RUN npm i -S node-red-node-forecastio
 
